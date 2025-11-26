@@ -1,2 +1,35 @@
 # DMET-VQE-MGO
-Large-scale Efficient Molecule Geometry Optimization with Hybrid Quantum-Classical Computing
+### *Large-scale Efficient Molecule Geometry Optimization with Hybrid Quantum-Classical Computing*
+
+This repository provides an efficient and scalable framework for **Molecule Geometry Optimization (MGO)** using a hybrid **DMET + VQE** scheme.  
+Our method integrates classical electronic-structure embedding (DMET) with quantum-variational solvers (VQE), enabling geometry optimization for molecular systems beyond the reach of purely classical approaches.
+
+---
+
+## Example
+
+The main implementation of the geometry optimization workflow can be found in:
+
+- **`main/geo_fun.py`** — core functions for DMET-VQE molecular geometry optimization  
+- **`main/H4.py`** — example script demonstrating the geometry optimization of the H\(_4\) molecule  
+- **`mol.py`** — definitions of molecular structures and helper functions for building geometries (H\(_2\)O\(_2\) and C\(_2\)H\(_4\)O\(_3\))
+
+To run the H\(_4\) example:
+
+```bash
+python main/H4.py
+
+---
+
+## Dependencies
+
+This project relies on the following library:
+
+## Dependencies
+
+* **PySCF:** `>= 2.8`
+* **OpenFermion:** `>= 1.7.0`
+* **OpenFermion-PySCF:** `>= 0.5`
+* **h5py:** `>= 3.13.0`
+* **MindQuantum:** `>= 0.10.0`
+* **Tangelo-GC:** `>= 0.4.3`
