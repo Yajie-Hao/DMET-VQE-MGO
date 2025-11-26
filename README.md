@@ -14,18 +14,12 @@ The main implementation of the geometry optimization workflow can be found in:
 - **`main/H4.py`** — example script demonstrating the geometry optimization of the H\(_4\) molecule  
 - **`mol.py`** — definitions of molecular structures and helper functions for building geometries (H\(_2\)O\(_2\) and C\(_2\)H\(_4\)O\(_3\))
 
-To run the H\(_4\) example:
-
-```bash
-python main/H4.py
 
 ---
 
 ## Dependencies
 
 This project relies on the following library:
-
-## Dependencies
 
 * **PySCF:** `>= 2.8`
 * **OpenFermion:** `>= 1.7.0`
