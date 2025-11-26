@@ -11,8 +11,8 @@ Our method integrates classical electronic-structure embedding (DMET) with quant
 The main implementation of the geometry optimization workflow can be found in:
 
 - **`main/geo_fun.py`** — core functions for DMET-VQE molecular geometry optimization  
-- **`main/H4.py`** — example script demonstrating the geometry optimization of the H\(_4\) molecule  
-- **`mol.py`** — definitions of molecular structures and helper functions for building geometries (H\(_2\)O\(_2\) and C\(_2\)H\(_4\)O\(_3\))
+- **`main/H4.py`** — example script demonstrating the geometry optimization of the (\( \mathrm{H_4} \) molecule  
+- **`mol.py`** — definitions of molecular structures and helper functions for building geometries (\( \mathrm{H_2O_2} \) and \( \mathrm{C_2H_4O_3} \))
 
 
 ---
