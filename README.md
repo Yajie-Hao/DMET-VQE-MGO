@@ -3,7 +3,7 @@
 
 This repository provides an efficient and scalable framework for **Molecule Geometry Optimization (MGO)** using a hybrid **DMET + VQE** scheme.  
 Our method integrates classical electronic-structure embedding (DMET) with quantum-variational solvers (VQE), enabling geometry optimization for molecular systems beyond the reach of purely classical approaches.
-
+Geometry files with the suffix _ref correspond to classical reference structures, whereas files with the suffix _our_work correspond to geometries optimized by the DMET–VQE method.
 ---
 
 ## Example
